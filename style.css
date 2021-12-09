@@ -1,0 +1,117 @@
+/* // css reset */
+
+* {
+    box-sizing: border-box;
+  }
+  /* body default value */
+  body {
+    margin: 0%;
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+  }
+  ul {
+    list-style: none;
+  }
+  h2 {
+    margin-left: 2rem;
+    font-weight: 400;
+  }
+  
+  h1 {
+    color: hsl(179, 62%, 43%);
+  }
+  
+  li {
+    margin-top: 0.5rem;
+  }
+  /* whole container of flex */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  /* first flex box of the container */
+  .first-box {
+    background-color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 3rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  /* second box of the container */
+  .second-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  /* two flex container of the second container */
+  .plan {
+    background-color: hsl(179, 62%, 43%);
+    /* border-bottom-left-radius: .5rem; */
+  }
+  .aboutus {
+    background-color: #4ababd;
+    /* border-bottom-right-radius: .5rem; */
+  }
+  .aboutus li {
+    color: hsl(204, 43%, 93%);
+  }
+  
+  /* to add color to the main para */
+  .specal-color {
+    color: hsl(71, 73%, 54%);
+    margin-left: 0;
+  }
+  
+  .plan,
+  .aboutus {
+    flex-grow: 1;
+    color: white;
+    padding: 1rem;
+  }
+  /* make font bigger in price */
+  .bigfont {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-right: 0.3rem;
+  }
+  /* make small font in price section */
+  .small-font {
+    color: hsl(204, 43%, 93%);
+    font-size: 0.9rem;
+  }
+  .color-change {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5;
+  }
+  
+  /* button style */
+  .btn {
+    border: none;
+    outline: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: inherit;
+    width: 80%;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px hsl(71, 73%, 54%);
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .btn:hover {
+    background-color: hsl(71, 73%, 44%);
+  }
+  
